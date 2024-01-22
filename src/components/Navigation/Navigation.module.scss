@@ -3,7 +3,7 @@
 .nav {
     display: none;
 
-    @media screen and (min-width: $mobile-size-breakpoint) {
+    @include breakpoint-up {
         display: flex;
         align-items: center;
         flex-grow: 1;
@@ -14,7 +14,8 @@
 
 .navList {
     display: none;
-    @media screen and (min-width: $mobile-size-breakpoint) {
+
+    @include breakpoint-up {
         display: flex;
         gap: 24px;
     }

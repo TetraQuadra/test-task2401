@@ -8,7 +8,7 @@
 
 .logoSpan {
     opacity: 0;
-    @media screen and (min-width: $mobile-size-breakpoint) {
+    @include breakpoint-up {
         font-size: 18px;
         line-height: 1.444;
         color: #013507;

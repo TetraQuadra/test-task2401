@@ -59,15 +59,17 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 
-    @media screen and (min-width: $mobile-size-breakpoint) {
+    @include breakpoint-up {
         font-size: 18px;
         line-height: 1.444;
     }
 }
 
 .container {
-    max-width: 1008px;
-    margin: 0 auto;
-    padding-right: 24px;
     padding-left: 24px;
+    padding-right: 24px;
+    @include breakpoint-up {
+        max-width: 1008px;
+        margin: 0 auto;
+    }
 }

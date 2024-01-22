@@ -9,7 +9,8 @@
 
 .button {
     display: none;
-    @media screen and (min-width: $mobile-size-breakpoint) {
+
+    @include breakpoint-up {
         display: block;
         width: 115px;
         height: 48px;
