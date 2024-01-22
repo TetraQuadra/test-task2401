@@ -4,8 +4,8 @@ import styles from "./Logo.module.scss";
 
 function Logo() {
     return (
-        <div className={styles.logoWrapper}><LogoIcon />
-            <span className={styles.logoSpan}>Logo</span></div>
+        <a href='/' className={styles.logoWrapper}><LogoIcon />
+            <span className={styles.logoSpan}>Logo</span></a>
     )
 }
 
