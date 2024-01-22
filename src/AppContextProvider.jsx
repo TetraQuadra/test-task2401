@@ -6,6 +6,7 @@ export const appContext = createContext()
 
 export function AppContextProvider() {
     const [clickCounter, setClickCounter] = useState(0)
+    const [isModalOpen, setModalOpen] = useState(false)
 
     useEffect(() => {
         if (clickCounter < 1) {
@@ -19,7 +20,7 @@ export function AppContextProvider() {
         setClickCounter(clickCounter + 1);
     };
     return (
-        <appContext.Provider value={{ updateCounter }} >
+        <appContext.Provider value={{ updateCounter, isModalOpen, setModalOpen }} >
             <App />
         </appContext.Provider>
     )

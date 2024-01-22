@@ -1,0 +1,7 @@
+@import "src/styles/variables";
+
+.menuButton {
+    @media screen and (min-width: $mobile-size-breakpoint) {
+        display: none;
+    }
+}

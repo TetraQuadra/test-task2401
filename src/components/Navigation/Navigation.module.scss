@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.nav {
+    display: none;
+
+    @media screen and (min-width: $mobile-size-breakpoint) {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: flex-end;
+        margin-right: 80px;
+    }
+}
+
+.navList {
+    display: none;
+    @media screen and (min-width: $mobile-size-breakpoint) {
+        display: flex;
+        gap: 24px;
+    }
+}
