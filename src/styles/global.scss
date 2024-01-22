@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+li {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+select {
+    font: inherit;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 1.466;
+    letter-spacing: -0.5px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    @media screen and (min-width: $mobile-size-breakpoint) {
+        font-size: 18px;
+        line-height: 1.444;
+    }
+}
+
+.section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
