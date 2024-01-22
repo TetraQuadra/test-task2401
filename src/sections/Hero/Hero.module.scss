@@ -30,7 +30,6 @@
 
 .title {
     text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
     font-size: 26px;
     font-weight: 600;
     line-height: 36px;
@@ -56,8 +55,13 @@
 
 .downloadButton {
     margin: 0 auto;
-    width: 196px;
-    height: 62px;
-    font-size: 20px;
+    width: 272px;
+    height: 48px;
+    font-size: 14px;
     font-weight: 600;
+    @include breakpoint-up {
+        width: 304px;
+        height: 64px;
+        font-size: 20px;
+    }
 }
