@@ -16,9 +16,18 @@
     font-size: 15px;
     font-weight: 600;
     border-radius: 30px;
-    background: #00600c;
-    color: #fff;
 
     box-shadow: 0px 0px 0px 0px #033d0a;
     transition: $transition-timing;
+}
+
+.button.primary {
+    background: #00600c;
+    color: #fff;
+}
+
+.button.secondary {
+    background: inherit;
+    border: 2px solid #00600c;
+    color: #00600c;
 }

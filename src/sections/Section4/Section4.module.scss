@@ -1,0 +1,98 @@
+@import "src/styles/variables";
+
+.section {
+    background: #e2f2e4;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    @include breakpoint-up {
+        padding-top: 72px;
+        padding-bottom: 62px;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+
+    @include breakpoint-up {
+        font-size: 36px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    max-width: 796px;
+    @include breakpoint-up {
+        margin-bottom: 42px;
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    @include breakpoint-up {
+        margin: 0px;
+        width: 196px;
+        height: 64px;
+        font-size: 20px;
+    }
+}
+
+.imageMobile {
+    width: 100%;
+    margin-bottom: 12px;
+    @include breakpoint-up {
+        display: none;
+    }
+}
+
+.imageDesktop {
+    display: none;
+    @include breakpoint-up {
+        display: block;
+        max-width: 510px;
+        // width: 100%;
+        position: absolute;
+        bottom: -62px;
+        right: 0px;
+        overflow: hidden;
+        z-index: 1;
+    }
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    @include breakpoint-up {
+        margin: 0;
+    }
+    max-width: 542px;
+    position: relative;
+    z-index: 5;
+}
+
+.buttonList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    @include breakpoint-up {
+        flex-direction: row;
+    }
+}
