@@ -1,0 +1,63 @@
+@import "src/styles/variables";
+
+.advantagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    letter-spacing: 0;
+    @include breakpoint-up {
+        flex-direction: row;
+        gap: 32px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.advantageItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include breakpoint-up {
+        font-size: 20px;
+        justify-content: start;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+.advantageItem > svg {
+    margin-bottom: 20px;
+    height: 96px;
+}
+
+.advantageTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #003306;
+    @include breakpoint-up {
+        font-size: 20px;
+    }
+}
+
+.subList {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.subListItem {
+    font-size: 12px;
+    font-weight: 300;
+    @include breakpoint-up {
+        font-size: 13px;
+    }
+}
+
+.checkmarkIcon {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 2px;
+}
