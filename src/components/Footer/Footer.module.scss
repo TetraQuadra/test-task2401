@@ -1,0 +1,30 @@
+@import "src/styles/variables";
+
+.footer {
+    padding-top: 44px;
+    padding-bottom: 38px;
+    @include breakpoint-up {
+        padding-top: 50px;
+        padding-bottom: 28px;
+    }
+}
+
+.linkList {
+    font-size: 13px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-bottom: 38px;
+    @include breakpoint-up {
+        margin-bottom: 18px;
+    }
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}

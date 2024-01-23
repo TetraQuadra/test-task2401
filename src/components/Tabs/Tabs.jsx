@@ -10,17 +10,18 @@ const Tabs = ({ tabsData, className }) => {
 
     return (
         <div className={`${styles.tabsContainer} ${className}`}>
-            <div className={styles.tabButtons}>
+            <ul className={styles.tabButtons}>
                 {tabsData.map((tab, index) => (
-                    <button
-                        key={tab.tabName}
-                        className={`${styles.tabButton} ${index === activeTab ? styles.activeTab : ''}`}
-                        onClick={() => handleTabClick(index)}
-                    >
-                        {tab.tabName}
-                    </button>
+                    <li key={tab.tabName}>
+                        <button
+                            className={`${styles.tabButton} ${index === activeTab ? styles.activeTab : ''}`}
+                            onClick={() => handleTabClick(index)}
+                        >
+                            {tab.tabName}
+                        </button>
+                    </li>
                 ))}
-            </div>
+            </ul>
             <div className={styles.tabContent}>
                 <h2 className={styles.contentHeader}>{tabsData[activeTab].title}</h2>
                 <p className={styles.content}>{tabsData[activeTab].content}</p>

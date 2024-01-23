@@ -1,3 +1,4 @@
+import Footer from 'components/Footer/Footer';
 import Header from 'components/Header/Header';
 import Hero from 'sections/Hero/Hero';
 import Section1 from 'sections/Section1/Section1';
@@ -10,6 +11,7 @@ export const App = () => {
       <Header />
       <Hero />
       <Section1 />
+      <Footer />
     </>
   );
 };
