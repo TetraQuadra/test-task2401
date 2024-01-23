@@ -1,0 +1,12 @@
+<svg width="132" height="78" viewBox="0 0 132 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon content">
+<path id="Rectangle 3244" d="M0.588652 71.4627C0.306981 70.7628 0.822257 70 1.57672 70H130.423C131.178 70 131.693 70.7628 131.411 71.4627C129.822 75.4125 125.991 78 121.734 78H10.2663C6.00863 78 2.17822 75.4125 0.588652 71.4627Z" fill="url(#paint0_linear_1_3019)"/>
+<path id="Rectangle 3251" d="M14.8936 32C14.8936 16.9151 14.8936 9.37258 19.5798 4.68629C24.2661 0 31.8086 0 46.8936 0H84.8936C99.9785 0 107.521 0 112.207 4.68629C116.894 9.37258 116.894 16.9151 116.894 32V70H14.8936V32Z" fill="#1B1D25"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_3019" x1="66" y1="70" x2="66" y2="78" gradientUnits="userSpaceOnUse">
+<stop stop-color="#626D84"/>
+<stop offset="1" stop-color="#414C61"/>
+</linearGradient>
+</defs>
+</svg>
