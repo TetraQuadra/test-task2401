@@ -1,0 +1,42 @@
+.sideMenuOverlay {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 900;
+}
+
+.nav {
+    margin-bottom: 68px;
+}
+
+.navList li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    position: relative;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+.button {
+    margin: 0 auto;
+    width: 272px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+}

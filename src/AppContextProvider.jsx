@@ -6,7 +6,12 @@ export const appContext = createContext()
 
 export function AppContextProvider() {
     const [clickCounter, setClickCounter] = useState(0)
-    const [isModalOpen, setModalOpen] = useState(false)
+    const [isSideMenuOpen, setSideMenuOpen] = useState(false)
+
+    const handleToggleSideMenu = () => {
+        setSideMenuOpen(!isSideMenuOpen);
+        document.body.classList.toggle('bodyScrollLock');
+    };
 
     useEffect(() => {
         if (clickCounter < 1) {
@@ -20,7 +25,7 @@ export function AppContextProvider() {
         setClickCounter(clickCounter + 1);
     };
     return (
-        <appContext.Provider value={{ updateCounter, isModalOpen, setModalOpen }} >
+        <appContext.Provider value={{ updateCounter, isSideMenuOpen, handleToggleSideMenu }} >
             <App />
         </appContext.Provider>
     )

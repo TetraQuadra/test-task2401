@@ -6,10 +6,10 @@ import { useContext } from 'react';
 import { appContext } from 'AppContextProvider';
 
 function BurgerMenu({ className }) {
-    const { isModalOpen, setModalOpen } = useContext(appContext)
+    const { isSideMenuOpen, handleToggleSideMenu } = useContext(appContext)
     return (
-        <button className={`${styles.menuButton} ${className}`} onClick={() => setModalOpen(!isModalOpen)}>
-            {isModalOpen ? <CrossIcon /> : <LogoIcon />}
+        <button className={`${styles.menuButton} ${className}`} onClick={() => handleToggleSideMenu()}>
+            {isSideMenuOpen ? <CrossIcon /> : <LogoIcon />}
         </button>
     )
 }
