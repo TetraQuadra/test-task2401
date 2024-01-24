@@ -16,13 +16,14 @@ export const App = () => {
 
   useEffect(() => {
 
-    // const handleTabClose = event => {
-    //   event.preventDefault();
-    // };
-    // window.addEventListener('beforeunload', handleTabClose, { capture: true });
-    // return () => {
-    //   window.removeEventListener('beforeunload', handleTabClose);
-    // };
+    const handleTabClose = event => {
+      event.preventDefault();
+    };
+    window.addEventListener('beforeunload', handleTabClose, { capture: true });
+    return () => {
+      window.removeEventListener('beforeunload', handleTabClose);
+    };
+
   }, []);
 
   return (
