@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+
+.section {
+    padding-top: 56px;
+    padding-bottom: 48px;
+    @include breakpoint-up {
+        padding-top: 78px;
+        padding-bottom: 76px;
+    }
+}

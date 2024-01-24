@@ -1,0 +1,79 @@
+@import "src/styles/variables";
+
+.slider {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 36px;
+    @include breakpoint-up {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 24px;
+        margin: 0;
+        // max-width: 288px;
+    }
+}
+
+.cardImg {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.cardTitle {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cardDescription {
+    max-width: 256px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    @include breakpoint-up {
+        text-align: left;
+    }
+}
+
+.cardTextWrapper {
+    @include breakpoint-up {
+        max-width: 164px;
+    }
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.buttonContainer button {
+    background-color: white;
+}
+
+.nextButton {
+    position: relative;
+}
+
+.prevButton {
+    position: relative;
+}
+
+@media screen and (min-width: 1120px) {
+    .nextButton {
+        position: absolute;
+        right: -80px;
+        top: 20%;
+    }
+
+    .prevButton {
+        position: absolute;
+        left: -80px;
+        top: 20%;
+    }
+}

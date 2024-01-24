@@ -1,9 +1,11 @@
+import Slider from 'components/Slider/Slider'
 import React from 'react'
+import styles from './Section3.module.scss'
 
 function Section3() {
     return (
-        <section>
-
+        <section className={styles.section}>
+            <Slider />
         </section>
     )
 }
