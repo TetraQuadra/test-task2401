@@ -22,12 +22,12 @@
 }
 
 .button.primary {
-    background: #00600c;
+    background: $main-green-color;
     color: #fff;
 }
 
 .button.secondary {
     background: inherit;
-    border: 2px solid #00600c;
-    color: #00600c;
+    border: 2px solid $main-green-color;
+    color: $main-green-color;
 }
