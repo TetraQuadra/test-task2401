@@ -29,6 +29,10 @@
     font-weight: 600;
     margin-bottom: 8px;
     text-align: center;
+    @include breakpoint-up {
+        text-align: left;
+        font-size: 16px;
+    }
 }
 
 .cardDescription {
