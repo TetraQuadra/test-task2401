@@ -18,5 +18,7 @@
     @include breakpoint-up {
         display: flex;
         gap: 24px;
+        font-size: 14px;
+        font-weight: 500;
     }
 }

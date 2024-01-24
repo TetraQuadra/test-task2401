@@ -30,7 +30,6 @@ function Section4() {
                         <Button className={styles.button} appearance='secondary'>Buy Now</Button>
                     </ul>
                 </div>
-
                 <ImageDesktop className={styles.imageDesktop} />
             </div>
         </section>

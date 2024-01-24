@@ -43,6 +43,7 @@
     letter-spacing: 0;
     @include breakpoint-up {
         text-align: left;
+        line-height: 15px;
     }
 }
 
