@@ -17,7 +17,7 @@ export function AppContextProvider() {
         if (clickCounter < 1) {
             return
         }
-        console.log(clickCounter)
+        console.log(`Click ${clickCounter}`)
     }, [clickCounter])
 
 
