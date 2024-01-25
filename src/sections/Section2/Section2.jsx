@@ -28,7 +28,7 @@ function Section2() {
 
         <section className={styles.section}>
             <div className='container'>
-                <h1 className={styles.title}>Nam at pulvinar dui, ornare ullamcorper nulla cursus rhoncus velit?</h1>
+                <h2 className={styles.title}>Nam at pulvinar dui, ornare ullamcorper nulla cursus rhoncus velit?</h2>
                 <Advantages advantagesData={advantagesData} />
 
 

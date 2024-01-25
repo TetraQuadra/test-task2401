@@ -16,7 +16,7 @@ function Section1() {
     return (
         <section className={styles.section}>
             <div className='container'>
-                <h1 className={styles.title}>Aliquam ut libero vel urna rhoncus?</h1>
+                <h2 className={styles.title}>Aliquam ut libero vel urna rhoncus?</h2>
                 <p className={styles.description}>Proin molestie justo at rhoncus ornare. Phasellus vulputate ultrices nibh sed lacinia. Etiam dui felis, ultricies vel accumsan iaculis, accumsan ac sapien. Suspendisse volutpat ipsum orci, vitae euismod augue dapibus quis. Integer felis nisi, semper vel vehicula nec, interdum ut felis. Donec sagittis lacinia nulla eget tincidunt.</p>
                 <Tabs className={styles.tabs} tabsData={tabsData} />
                 <Button className={styles.downloadButton}>Download</Button>

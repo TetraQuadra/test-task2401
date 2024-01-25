@@ -8,7 +8,7 @@ function Advantages({ advantagesData }) {
             {advantagesData.map((item, index) => (
                 <li key={index} className={styles.advantageItem}>
                     {item.img}
-                    <h2 className={styles.advantageTitle}>{item.title}</h2>
+                    <h3 className={styles.advantageTitle}>{item.title}</h3>
                     <ul className={styles.subList}>
                         {item.advantages.map((advantage, i) => (
                             <li key={i} className={styles.subListItem}>

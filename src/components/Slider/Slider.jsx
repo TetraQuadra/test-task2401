@@ -47,7 +47,7 @@ function Slider() {
                     <div className={styles.card}>
                         <Triangle className={styles.cardImg} />
                         <div className={styles.cardTextWrapper}>
-                            <h2 className={styles.cardTitle}>Sit amet ante </h2>
+                            <h3 className={styles.cardTitle}>Sit amet ante </h3>
                             <p className={styles.cardDescription}>Diam id lacinia ullamcorper, ipsum nibh lobortis nibh, a eleifend elit enim non enim.</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function Slider() {
                     <div className={styles.card}>
                         <Square className={styles.cardImg} />
                         <div className={styles.cardTextWrapper}>
-                            <h2 className={styles.cardTitle}>Quisque maximus</h2>
+                            <h3 className={styles.cardTitle}>Quisque maximus</h3>
                             <p className={styles.cardDescription}>Phasellus hendrerit sapien vel magna congue fringilla. Phasellus finibus arcu sit amet nibh faucibus.</p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function Slider() {
                     <div className={styles.card}>
                         <Circle className={styles.cardImg} />
                         <div className={styles.cardTextWrapper}>
-                            <h2 className={styles.cardTitle}>Nunc in malesuada</h2>
+                            <h3 className={styles.cardTitle}>Nunc in malesuada</h3>
                             <p className={styles.cardDescription}>Ut vitae massa dignissim, tempor dui eget, suscipit neque. Aliquam erat volutpat.</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function Slider() {
                     <div className={styles.card}>
                         <Triangle className={styles.cardImg} />
                         <div className={styles.cardTextWrapper}>
-                            <h2 className={styles.cardTitle}>Sit amet ante </h2>
+                            <h3 className={styles.cardTitle}>Sit amet ante </h3>
                             <p className={styles.cardDescription}>Diam id lacinia ullamcorper, ipsum nibh lobortis nibh, a eleifend elit enim non enim.</p>
                         </div>
                     </div>
